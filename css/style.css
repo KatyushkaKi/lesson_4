@@ -1,0 +1,103 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+@font-face {
+	font-family: "CircularStd";
+	src: url("../font/CircularStd-Book.woff2") format("woff2"), url("../font/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../font/CircularStd-Bold.woff2") format("woff2"), url("../font/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../font/CircularStd-Medium.woff2") format("woff2"), url("../font/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../font/CircularStd-Black.woff") format("woff2"), url("../font/CircularStd-Black.woff2") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+header {
+	color: orangered;
+	font-family: serif;
+	font-weight: 400;
+	text-align: center;
+}
+header span{
+	font-family: monospace;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+nav {
+	color: navy;
+	font-family: "circularStd";
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: underline;
+	font-size: 20px;
+}
+h1 {
+	color: rgba(143, 30, 30, 0.781);
+	font-family: lato;
+	font-weight: 900;
+	font-size: 48px;
+	text-shadow: 5px 5px 5px chocolate;
+}
+h2 {
+	color: rgba(15, 101, 158, 0.824);
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 32px;
+}
+h3 {
+	color: rgba(44, 83, 192, 0.486);
+	font-style: italic;
+	font-size: 28px;
+	text-align: center;
+	text-shadow: 16px 16px 10px rgb(122, 170, 26);
+}
+#section {
+	font-family: cursive;
+	font-size: 32px;
+	text-align: center;
+	color: crimson;
+}
+p {
+	color: rgb(15, 6, 77);
+	font-family: "circularStd";
+	font-weight: 900;
+}
+.text {
+	font-family: lato;
+	color: rgb(119, 22, 111);
+	font-size: 18px;
+	font-style: italic;
+}
+div.text{
+font-family: serif;
+font-style: normal;
+color: darkcyan;
+}
+span{
+	text-decoration: underline;
+	font-style: oblique;
+	text-align: right;
+}
+footer{
+	font-family: fantasy;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: normal;
+	color:darkred;
+	text-shadow:15px -15px 10px rgba(75, 12, 4, 0.548)
+}
